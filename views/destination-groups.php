@@ -12,15 +12,16 @@ use yii\bootstrap\Html;
 ?>
 
 <div id="<?= $unique_id ?>" class="<?= $container_class ?>">
+    <p>
     <div class="table">
         <div class="table-cell vertical-align-top">
-            <input id="<?= $unique_id ?>-input" type="text" class="form-control" placeholder="group container name"/>
+            <input id="<?= $unique_id ?>-input" type="text" class="form-control" style="margin-left: 5px" placeholder="group container name"/>
         </div>
         <div class="table-cell vertical-align-top">
             <?= Html::button('Add Group Container', ['class' => 'btn btn-success', 'id' => $unique_id . '-button']) ?>
         </div>
     </div>
-
+    </p>
     <div class="<?= $group_class ?>-container">
         <?php foreach ($array as $section_id => $section) : ?>
             <div class="<?= $group_class ?>"

@@ -15,11 +15,6 @@
       "email": "jchambers.dev@gmail.com"
     }
   ],
-  "require": {
-    "c006/yii2-core": "*",
-    "c006/yii2-alerts": "*",
-    "c006/yii2-submit-spinner": "*"
-  },
   "autoload": {
     "psr-4": {
       "c006\\widget-sortable-list\\": ""
